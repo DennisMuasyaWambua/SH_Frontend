@@ -20,6 +20,10 @@ import {
   ChevronRight,
   Moon,
   Sun,
+  Gavel,
+  DoorOpen,
+  Award,
+  MapPin,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useStore } from '@/lib/store'
@@ -33,10 +37,14 @@ const navItems = [
   { href: '/background-checks', label: 'Background Checks', icon: ShieldCheck },
   { href: '/leave', label: 'Leave', icon: Calendar },
   { href: '/attendance', label: 'Attendance', icon: Clock },
+  { href: '/attendance/geofence', label: 'Geofence', icon: MapPin },
   { href: '/payroll', label: 'Payroll', icon: DollarSign },
   { href: '/performance', label: 'Performance', icon: TrendingUp },
   { href: '/training', label: 'Training', icon: GraduationCap },
   { href: '/medical', label: 'Medical', icon: Stethoscope },
+  { href: '/disciplinary', label: 'Disciplinary', icon: Gavel },
+  { href: '/exits', label: 'Exits', icon: DoorOpen },
+  { href: '/certificates', label: 'Certificates', icon: Award },
   { href: '/reports', label: 'Reports', icon: BarChart3 },
   { href: '/settings', label: 'Settings', icon: Settings },
 ]
